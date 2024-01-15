@@ -1,0 +1,15 @@
+{
+    "token": "MTE5NjM5NTE5MzM5ODczMDg1NQ.GV8KCI.fEfX9SyA6KRpFlyjK6U3SUJFHFLSwOi0RCQzhs",
+    "mongooseConnectionString": "mongodb+srv://NightShade:jLeOxFWrln5g7d5U@nightshade.memdr.mongodb.net/",
+    "clientId": "1196395193398730855",
+    "OWNER_ID": "1100663113226928221",
+  
+
+    "messages": {
+		"COOLDOWN_MESSAGE": "You are on `<duration>` cooldown!"
+	},
+    "prefix": "."
+}
+    
+
+

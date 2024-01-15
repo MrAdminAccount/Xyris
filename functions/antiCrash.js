@@ -1,0 +1,38 @@
+const { EmbedBuilder } = require("discord.js");
+const { time } = require('discord.js')
+const { inspect } = require('util')
+
+module.exports = async (client) => {
+
+  process.on("unhandledRejection", async (err) => {
+
+    console.log(err)
+      const date = new Date()
+      const relative = time(date, 'F')
+
+      const channel = client.channels.cache.get("1100736615850192936")
+        const embed = new EmbedBuilder()
+        .setTitle("Error")
+        .setDescription(`**From:** \`unhandledRejection\`\n**Time:** ${relative}\n\n  **Error:**\`\`\`${inspect(err, {depth: 0})}\`\`\``)
+        .setColor("#2F3136")
+    
+        await channel.send({ embeds: [embed] }).catch(console.log)
+  });
+
+  process.on("uncaughtException", async (err) => {
+    console.log(err)
+
+    const date = new Date()
+    const relative = time(date, 'F')
+
+    const channel = client.channels.cache.get("1100736615850192936")
+
+      const embed = new EmbedBuilder()
+      .setTitle("Error")
+      .setDescription(`**From:** \`uncaughtException\`\n**Time:** ${relative}\n\n**Error:**\`\`\`${inspect(err, {depth: 0})}\`\`\``)
+      .setColor("#2F3136")
+  
+      await channel.send({ embeds: [embed] }).catch(console.log)
+
+  });
+};
