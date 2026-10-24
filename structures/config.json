@@ -1,8 +1,8 @@
 {
-    "token": "MTEwMzI0NTE5ODE3MzE2MzUyMA.GBMyvu.Qg60bX19aRkwslyn-NrQzFL5jvoiDJyKawi504",
-    "mongooseConnectionString": "mongodb+srv://NightShade:jLeOxFWrln5g7d5U@nightshade.memdr.mongodb.net/",
-    "clientId": "1103245198173163520",
-    "OWNER_ID": "1100663113226928221",
+    "token": "",
+    "mongooseConnectionString": "",
+    "clientId": "",
+    "OWNER_ID": "",
   
 
     "messages": {
