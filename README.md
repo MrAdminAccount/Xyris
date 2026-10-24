@@ -11,7 +11,6 @@ Xyris organises its functionality into several categories:
 - **Fun** — Entertainment and community engagement.
 - **Information** — Informational commands and utilities.
 - **Moderation** — Tools for managing Discord communities.
-- **NSFW** — Age-restricted features.
 - **Other** — Additional bot functionality.
 - **Utility** — General-purpose server utilities.
 
@@ -30,7 +29,6 @@ Xyris/
 ├── Fun/
 ├── Information/
 ├── Moderation/
-├── Nsfw/
 ├── Other/
 └── Utility/
 ```
